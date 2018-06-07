@@ -41,19 +41,20 @@ img {
     transition: width 3s, height  3s, transform 3s;
 }
 img:hover {
-    width: 11.0625rem;
-    height: 15.0625rem;
-    transform: rotate(360deg);
+  width: 11.0625rem;
+  height: 15.0625rem;
+  transform: rotate(360deg);
   margin: 1.875rem;
   padding: 0.0625rem;
   background-color: #666;
   box-sizing: border-box;
   font-size: 100%;
 }
-}
+
 ul {
   list-style-type: none;
 }
+
 li{  display: inline;}
 
 .head, .about {
@@ -87,7 +88,7 @@ h2{
 .about {
   font-family: 'Open Sans', sans-serif;
   text-align: justify;
-   text-justify: inter-word;}
+  text-justify: inter-word;}
 
 .linemoving {
   background-color: hsla(0, 0%, 30%, 1);
