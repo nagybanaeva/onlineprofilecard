@@ -103,7 +103,8 @@ h2{
 }
 @keyframes line{
   from {width: 0rem;}
-  to {width: 25rem} 
+  to {width: 25rem;
+  max-width: calc(100vw - 2.5rem);} 
 }
 span {
   font-family: 'Open Sans', sans-serif;
@@ -112,13 +113,4 @@ span {
 small{
   font-family: 'Open Sans', sans-serif;
   color: hsla(0, 0%, 30%, 1);
-}
-
-@media (min-width: 768px) { .profile-card { width: 25rem;
-  max-width: calc(100vw - 2.5rem);
-  }
-  @keyframes line{
-  from {width: 0rem;}
-  to {width: calc(100vw - 2.5rem)} 
-}
 }
